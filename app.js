@@ -55,7 +55,7 @@ const PORT = process.env.SV_PORT;
 const ENVIROMENT = process.env.NODE_ENV; 
 
 try{
-    app.listen('3333', ()=>{  
+    app.listen(PORT, ()=>{  
         console.log(`Preparing the \x1b[33m${ENVIROMENT}\x1b[0m environment...`)
         console.log(`\x1b[32mRunning server at http://${HOST}:${PORT} \x1b[0m`)
     })
