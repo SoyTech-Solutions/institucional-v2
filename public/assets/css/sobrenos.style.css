@@ -1,0 +1,113 @@
+.sobrenos-container{
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inner-sobrenos{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.left-sobrenos, .right-sobrenos{
+    width: 50%;
+    height: 100%;
+}
+
+.left-sobrenos{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.right-sobrenos{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+}
+.first-picture-wrap{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+    object-fit: cover;
+
+}
+.second-picture-wrap{
+    height: 180px;
+    width: 180px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    border: 10px solid #ffffff;
+    object-fit: cover;
+
+}
+
+
+.right-sobrenos > h2{
+    text-align: start;
+    width: 100%;
+    height: 30px;
+    margin-top: 60px;
+    font-family: 'Covered by Your Grace', 'Arial', 'Helvetica', 'sans-serif';
+    color: rgb(75,175,71);
+    font-weight: 500;
+}
+.right-sobrenos > h1{
+    width: 100%;
+    height: 100px;
+    font-weight:  bolder;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 10px;
+}
+.right-sobrenos > h3{
+    width: 100%;
+    height: 50px;
+    flex-direction: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+}
+
+.right-sobrenos> p{
+    display: flex;
+    line-height: 25px;
+    font-size: 20px;
+}
+.qualidade-sobrenos{
+    width: 100%;
+    height: 60px;
+  
+    display: flex;
+    flex-direction: row;
+}
+.left-qualidade, .right-qualidade{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+.right-qualidade{
+    
+}
+.qualidade-texto{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
