@@ -388,7 +388,7 @@
                         tomar decisões estratégicas para o SEU negócio ;</p>
                 </div>
             </div>
-            <a href="financial-simulator.html">Ver cálculo</a>
+            <a href="/calculadora">Ver cálculo</a>
         </div>
     </section>
     <section class="contato-container" id="contato">
@@ -461,6 +461,19 @@
                                                     <img src="/assets/icon/icons8-aprovação-50.png" alt="">
                                                     </div>
                                                     `
+                                                    fetch("/prospect/cadastrar", {
+                                                    method: "POST",
+                                                    headers: {
+                                                        "Content-Type": "application/json"
+                                                    },
+                                                    body: JSON.stringify({
+                                                        representanteServer: representante,
+                                                        emailServer: emailCliente,
+                                                        descricaoServer: descricao,
+                                                        telefoneServer: telefone,
+                                                        razaoSocialServer: razaoSocial
+                                                    })
+                                                })
 
                                             } else {
                                                 alert("Descrição inválida. Deve ter no máximo 500 caracteres.");

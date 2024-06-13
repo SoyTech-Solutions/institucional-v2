@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
+var prospectController = require("../controllers/prospectController")
 // Rota raiz dentro do grupo /
 router.get('/', function (req, res) {
     let errorMessage = '';
@@ -28,5 +29,13 @@ router.get('/calculadora', function (req, res) {
 
     res.render('calculadora.ejs');  
 });
+
+router.post("/prospect/cadastrar", function (req, res) {
+    // função a ser chamada quando acessar /speedUsuarios/cadastrar
+    prospectController.cadastrar(req, res);
+});
+
+
+router.post('/')
 
 module.exports = router;
