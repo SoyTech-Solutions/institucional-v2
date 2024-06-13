@@ -40,6 +40,7 @@
     height: 70px;
     width: 90%;
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
     font-size: 40px;
     font-weight: bolder;
     line-height: 40px;
@@ -51,7 +52,6 @@
     color: rgb(75,175,71);
     font-weight: lighter;
     text-align: start;
-
 }
 .left-first p{
     width: 90%;
@@ -59,6 +59,7 @@
     word-wrap: break-word;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 15px;
+    text-align: justify;
 }
 .left-first a{
     text-decoration: none;
@@ -136,7 +137,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     height: 155px;
-
+    text-align: justify;
 }
 .selo-container{
     width: 100%;

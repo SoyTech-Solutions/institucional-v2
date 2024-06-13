@@ -31,7 +31,7 @@
                     <img src="https://img.icons8.com/ios/50/4baf47/ringer-volume.png" alt="ringer-volume" />
                     <div class="contact-card-info">
                         <span>Ligue para</span>
-                        <p>+55 11940028922</p>
+                        <p>+55 (11) 96532-0515</p>
                     </div>
                 </div>
                 <div class="contact-line"></div>
@@ -39,14 +39,15 @@
                     <img src="https://img.icons8.com/ios/50/4baf47/envelope-dots.png" alt="envelope-dots" />
                     <div class="contact-card-info">
                         <span>Mensagem para</span>
-                        <p> soytechsolutions@gmail.com</p>
+                        <p><a style="text-decoration: none; color: black;"
+                                href="mailto:soytechsolutions@outlook.com">soytechsolutions@outlook.com</a></p>
                     </div>
                 </div>
                 <div class="contact-line"></div>
                 <div class="contact-card">
                     <img src="https://img.icons8.com/ios/50/4baf47/place-marker--v1.png" alt="place-marker--v1" />
                     <div class="contact-card-info">
-                        <span>965, Haddock Lobo</span>
+                        <span>595, Haddock Lobo</span>
                         <p>Av Paulista, São Paulo SP</p>
                     </div>
                 </div>
@@ -62,13 +63,14 @@
             <li class="nav-items"><a href="#Sobrenos" class="nav-link">Sobre nós</a></li>
             <li class="nav-items"><a href="#servicos" class="nav-link">Serviços</a></li>
             <li class="nav-items"><a href="#Solucao" class="nav-link">Solução</a></li>
+            <li class="nav-items"><a href="#integracao_container" class="nav-link">Integração</a></li>
             <li class="nav-items"><a href="#rentabilidade" class="nav-link">Rentabilidade</a></li>
             <li class="nav-items"><a href="#contato" class="nav-link">Contato</a></li>
         </ul>
     </nav>
     <main class="main">
         <section class="main-content">
-            <h3>SEJA BEM-VINDO Á SOYTECH!</h3>
+            <h3>SEJA BEM-VINDO À SOYTECH!</h3>
             <h1>
                 Somos Soja,<br>
                 tecnologia <span>&</span> inovação!
@@ -78,8 +80,10 @@
                 Junte-se a nós nesta jornada rumo a uma agricultura mais eficiente, sustentável e lucrativa.
             </p>
             <div class="btn-know-wrap">
-                <button>Saiba mais</button>
-                <img src="/assets/icon/leaf.svg">
+                <a href="#integracao_container" style="text-decoration: none; color: black;">
+                    <button onclick="">Saiba mais</button>
+                </a>
+                <img src=" /assets/icon/leaf.svg">
             </div>
             <div class="card-info-wrap">
                 <div class="card-info">
@@ -118,8 +122,7 @@
     <section class="sobrenos-container" id="Sobrenos">
         <div class="inner-sobrenos">
             <div class="left-sobrenos">
-                <img src="/assets/img/perdas-na-colheita-de-soja-imagem-destacada.jpg"
-                    class="first-picture-wrap">
+                <img src="/assets/img/perdas-na-colheita-de-soja-imagem-destacada.jpg" class="first-picture-wrap">
 
                 <img src="/assets/img/PRODIET-BLOG-03-sobre-nos.png" class="second-picture-wrap">
 
@@ -256,7 +259,7 @@
             </div>
         </div>
     </section>
-    <section class="integracao-container">
+    <section class="integracao-container" id="integracao_container">
         <div class="inner-integracao">
             <div class="first-integracao">
                 <div class="left-first">
@@ -264,13 +267,13 @@
                     <h1>Como funciona <br>a solução?</h1>
                     <br>
                     <p>
-                        Nosso sistema inovador de IoT oferece uma <br>
-                        solução abrangente para monitorar e <br>
-                        gerenciar as condições de temperatura e <br>
-                        umidade em ambientes de produção <br>
-                        de soja. Com sensores integrados em fazendas <br>
-                        e estufas, os dados são continuamente <br>
-                        coletados frequentemente e transmitidos para nossa<br>
+                        Nosso sistema inovador de IoT oferece uma
+                        solução abrangente para monitorar e
+                        gerenciar as condições de temperatura e
+                        umidade em ambientes de produção
+                        de soja. Com sensores integrados em fazendas
+                        e estufas, os dados são continuamente
+                        coletados frequentemente e transmitidos para nossa
                         plataforma em gráficos estatísticos
                     </p>
                     <a href="https://drive.google.com/file/d/16T7PbGR72aois7e_J1mztwWesbxCNE4D/view">Documentação</a>
@@ -385,7 +388,7 @@
                         Ação
                     </h1>
                     <p> Dê vida aos seus planos de forma prática! Através do acompanhamento da sua produção é possível
-                        tomar decisões estratégicas para o SEU negócio ;</p>
+                        tomar decisões estratégicas para o SEU negócio</p>
                 </div>
             </div>
             <a href="/calculadora">Ver cálculo</a>
@@ -404,7 +407,7 @@
                 </div>
 
                 <div id="primeiraTela" class="right-contato">
-                    <h2>Contate nos</h2>
+                    <h2>Contate-nos</h2>
 
                     <h1>Entre em contato conosco!</h1>
                     <form>
@@ -461,7 +464,7 @@
                                                     <img src="/assets/icon/icons8-aprovação-50.png" alt="">
                                                     </div>
                                                     `
-                                                    fetch("/prospect/cadastrar", {
+                                                fetch("/prospect/cadastrar", {
                                                     method: "POST",
                                                     headers: {
                                                         "Content-Type": "application/json"
@@ -513,9 +516,10 @@
                     <h1 id="contato">Contato</h1>
                     <div class="info-card-contato">
                         <p id="soytech2">
-                            +55 (11) 988652170 <br>
-                            soytechsolutions@gmail.com<br>
-                            Seg Sex: 10h 16h <br>
+                            +55 (11) 96532-0515 <br>
+                            <a style="text-decoration: none; color: white;"
+                                href="mailto:soytechsolutions@outlook.com">soytechsolutions@outlook.com</a><br>
+                            Seg-Sex: 10-16 h <br>
                         </p>
                     </div>
                 </div>
@@ -526,7 +530,7 @@
                         <p id="soytech2">
                             Rua Haddock Lobo, 595<br>
                             Cerqueira César, São Paulo<br>
-                            SP, 01414 001<br>
+                            SP, 01414-001<br>
                         </p>
                     </div>
                 </div>
@@ -574,31 +578,31 @@
                         <ul>
                             <li>
                                 <img src="/assets/icon/icons8-comida-natural-30.png" class="ImgIconFooter">
-                                Home
+                                <a href="#">Home</a>
                             </li>
                             <li>
                                 <img src="/assets/icon/icons8-comida-natural-30.png" class="ImgIconFooter">
-                                Sobre nós
+                                <a href="#Sobrenos">Sobre nós</a>
                             </li>
                             <li>
                                 <img src="/assets/icon/icons8-comida-natural-30.png" class="ImgIconFooter">
-                                Serviços
+                                <a href="#servicos">Serviços</a>
                             </li>
                             <li>
                                 <img src="/assets/icon/icons8-comida-natural-30.png" class="ImgIconFooter">
-                                Solução
+                                <a href="#Solucao">Solução</a>
                             </li>
                             <li>
                                 <img src="/assets/icon/icons8-comida-natural-30.png" class="ImgIconFooter">
-                                Integração
+                                <a href="#integracao_container">Integração</a>
                             </li>
                             <li>
                                 <img src="/assets/icon/icons8-comida-natural-30.png" class="ImgIconFooter">
-                                Rentabilidade
+                                <a href="#rentabilidade">Rentabilidade</a>
                             </li>
                             <li>
                                 <img src="/assets/icon/icons8-comida-natural-30.png" class="ImgIconFooter">
-                                Contate-nos
+                                <a href="#contato">Contate-nos</a>
                             </li>
 
                         </ul>
@@ -637,11 +641,11 @@
                         <ul>
                             <li>
                                 <img class="ImgIconFooter" src="/assets/icon/icons8-telefone-30.png">
-                                +55 (11) 99999-9999
+                                +55 (11) 96532-0515
                             </li>
                             <li>
                                 <img class="ImgIconFooter" src="/assets/icon/icons8-nova-mensagem-30.png">
-                               soytechsolutions@gmail.com
+                                <a href="mailto:soytechsolutions@outlook.com">soytechsolutions@outlook.com</a>
                             </li>
                             <li>
                                 <img src="/assets/icon/icons8-local-30.png" class="ImgIconFooter">
@@ -649,13 +653,13 @@
                                 Av Paulista São Paulo, SP
                             </li>
                             <br>
-                            <li>
+                            <!-- <li>
                                 <form class="email-footer">
                                     <input placeholder=" Email">
                                     <button> <img src="/assets/icon/icons8-enviar-e-mail-24.png" class="ImgIconFooter">
                                     </button>
                                 </form>
-                            </li>
+                            </li> -->
                         </ul>
                 </div>
             </div>

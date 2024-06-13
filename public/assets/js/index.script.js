@@ -235,7 +235,7 @@ btnProductivity.addEventListener('click', function () {
                     <h4 class="response-subtitle" style="margin-top: 30px;">SoyTech</h4>
                     <h1 class="response-title">Nós temos a solução</h1>
                     <p class="response-subtext">Venha conhecer a nossa empresa, somos a SoyTech Solutions e temos a solução para o seu negócio, clique em saiba mais, confira e entre em contato com a gente, estamos te esperando ;)</p>
-                    <button class="btn-know">Saiba Mais</button>
+                    <a href="/#contato" style="text-decoration: none; color: white; display: flex;"><button class="btn-know">Contate-nos</button></a>
                 </div>
             </div>
         `
